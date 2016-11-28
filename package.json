@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-optimum",
-  "version": "0.1.0",
-  "description": "ESLint shareable config for the Optimum style",
+  "version": "0.0.1",
+  "description": "ESLint shareable config for the standard Optimum style",
   "license": "proprietary",
   "repository": "eslint-config-optimum",
   "author": "Chris Boscolo",
