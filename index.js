@@ -17,7 +17,6 @@ module.exports = {
     // best practices
     "array-callback-return": "error",
     "block-scoped-var": "error",
-    "consistent-return": "warn",
     "curly": "warn",
     "dot-location": ["warn", "property"],
     "eqeqeq": "warn",
