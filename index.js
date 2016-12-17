@@ -1,6 +1,7 @@
 'use strict';
 
 module.exports = {
+	extends: "eslint:recommended",
 	rules: {
 		// errors
 		"comma-dangle": "warn",
