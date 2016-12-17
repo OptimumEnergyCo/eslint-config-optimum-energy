@@ -7,14 +7,14 @@ const conf = require('../');
 // The source files to lint.
 const repoFiles = [
   'index.js',
-  'test/test.js',
+  'test/test.js'
 ];
 
 // Use the rules defined in this repo to test against.
 const eslintOpts = {
   envs: ['node', 'es6'],
   useEslintrc: false,
-  rules: conf.rules,
+  rules: conf.rules
 };
 
 // Runs the linter on the repo files and asserts no errors were found.

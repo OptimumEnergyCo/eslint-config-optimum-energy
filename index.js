@@ -60,7 +60,7 @@ module.exports = {
     "no-sequences": "error",
     "no-throw-literal": "error",
     "no-unmodified-loop-condition": "error",
-    "no-unused-expressions": ["error", { allowTernary: true }],
+    "no-unused-expressions": ["error", { allowTernary: true } ],
     "no-unused-labels": "error",
     "no-useless-call": "error",
     "no-useless-concat": "warn",
@@ -81,14 +81,14 @@ module.exports = {
     "no-use-before-define": "warn",
 
     // stylistic
-    "array-bracket-spacing": ["warn", "never", { objectsInArrays: true, arraysInArrays: true }],
+    "array-bracket-spacing": ["warn", "never", { objectsInArrays: true, arraysInArrays: true } ],
     "block-spacing": "warn",
-    "camelcase": ["warn", { properties: "never" }],
+    "camelcase": ["warn", { properties: "never" } ],
     "comma-spacing": "warn",
     "comma-style": "warn",
     "computed-property-spacing": "warn",
     "eol-last": "warn",
-    "indent": ["warn", 2, { "SwitchCase": 1 }],
+    "indent": ["warn", 2, { "SwitchCase": 1 } ],
     "key-spacing": "warn",
     "keyword-spacing": "warn",
     "linebreak-style": "warn",
@@ -102,7 +102,7 @@ module.exports = {
     "no-bitwise": "error",
     "no-lonely-if": "warn",
     "no-mixed-spaces-and-tabs": "warn",
-    "no-multiple-empty-lines": ["warn", { max: 1 }],
+    "no-multiple-empty-lines": ["warn", { max: 1 } ],
     "no-negated-condition": "warn",
     "no-nested-ternary": "warn",
     "no-new-object": "warn",
@@ -122,9 +122,9 @@ module.exports = {
     "spaced-comment": "warn",
 
     // ES6
-    "arrow-spacing": ["warn", { "before": true, "after": true }],
+    "arrow-spacing": ["warn", { "before": true, "after": true } ],
     "constructor-super": "error",
-    "generator-star-spacing": ["warn", { "before": true, "after": false }],
+    "generator-star-spacing": ["warn", { "before": true, "after": false } ],
     "no-class-assign": "error",
     "no-const-assign": "error",
     "no-dupe-class-members": "error",
@@ -141,6 +141,6 @@ module.exports = {
     "prefer-template": "warn",
     "require-yield": "error",
     "template-curly-spacing": ["warn", "always"],
-    "yield-star-spacing": ["warn", { "before": false, "after": true }]
+    "yield-star-spacing": ["warn", { "before": false, "after": true } ]
   }
-}
+};
