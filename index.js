@@ -14,6 +14,7 @@ module.exports = {
     // best practices
     "array-callback-return": "error",
     "block-scoped-var": "error",
+
     // "complexity": "error", TODO: Turn on this rule
     "consistent-return": "warn",
     "curly": "warn",
@@ -99,6 +100,7 @@ module.exports = {
     "no-nested-ternary": "warn",
     "no-new-object": "warn",
     "no-spaced-func": "warn",
+    "no-tabs": "warn",
     "no-trailing-spaces": "warn",
     "no-unneeded-ternary": "warn",
     "no-whitespace-before-property": "warn",
