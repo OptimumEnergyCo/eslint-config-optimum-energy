@@ -105,6 +105,7 @@ module.exports = {
     "no-unneeded-ternary": "warn",
     "no-whitespace-before-property": "warn",
     "object-curly-spacing": ["warn", "always"],
+    "semi": "warn",
     "semi-spacing": "warn",
     "space-before-blocks": "warn",
     "space-before-function-paren": ["warn", "never"],
