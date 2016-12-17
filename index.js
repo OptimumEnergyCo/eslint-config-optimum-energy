@@ -17,8 +17,6 @@ module.exports = {
     // best practices
     "array-callback-return": "error",
     "block-scoped-var": "error",
-
-    // "complexity": "error", TODO: Turn on this rule
     "consistent-return": "warn",
     "curly": "warn",
     "dot-location": ["warn", "property"],
@@ -50,7 +48,6 @@ module.exports = {
     "no-octal-escape": "error",
     "no-proto": "error",
     "no-redeclare": "error",
-    // "no-return-assign": "error", // TODO: Reenable this rule. (https://github.com/eslint/eslint/issues/5150)
     "no-script-url": "error",
     "no-self-compare": "error",
     "no-sequences": "error",
@@ -128,13 +125,13 @@ module.exports = {
     "no-new-symbol": "error",
     "no-this-before-super": "error",
     "no-useless-computed-key": "error",
-    // "no-useless-constructor": "error", // TODO: Turn on this rule after upgrading to Angular 2.
+    "no-useless-constructor": "error",
     // "no-var": "error", // TODO: Turn this rule on!
     "object-shorthand": "warn",
     // "prefer-arrow-callback": "warn", // TODO: Turn this rule on
     "prefer-rest-params": "error",
     "prefer-spread": "error",
-    // "prefer-template": "warn", // TODO: Turn this rule on.
+    "prefer-template": "warn",
     "require-yield": "error",
     "template-curly-spacing": ["warn", "always"],
     "yield-star-spacing": ["warn", { "before": false, "after": true }]
