@@ -133,9 +133,9 @@ module.exports = {
     "no-this-before-super": "error",
     "no-useless-computed-key": "error",
     "no-useless-constructor": "error",
-    // "no-var": "error", // TODO: Turn this rule on!
+    "no-var": "error",
     "object-shorthand": "warn",
-    // "prefer-arrow-callback": "warn", // TODO: Turn this rule on
+    "prefer-arrow-callback": "warn",
     "prefer-rest-params": "error",
     "prefer-spread": "error",
     "prefer-template": "warn",
