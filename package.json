@@ -1,16 +1,9 @@
 {
-  "name": "eslint-config-optimum",
-  "version": "0.1.1",
-  "description": "ESLint shareable config for the standard Optimum style",
-  "license": "proprietary",
-  "repository": "eslint-config-optimum",
-  "author": "Chris Boscolo",
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "scripts": {
-    "test": "node test/test.js"
-  },
+  "name": "eslint-config-optimum-energy",
+  "version": "0.1.2",
+  "description": "The shared team ESLint configuration for Optimum Energy",
+  "license": "MIT",
+  "repository": "https://github.com/OptimumEnergyCo/eslint-config-optimum-energy",
   "files": [
     "index.js"
   ],

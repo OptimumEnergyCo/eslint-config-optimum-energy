@@ -2,6 +2,7 @@
 
 module.exports = {
   extends: "eslint:recommended",
+
   parserOptions: {
     ecmaVersion: 6,
     sourceType: "module",
@@ -9,10 +10,12 @@ module.exports = {
       impliedStrict: true
     }
   },
+
   env: {
     node: true,
     es6: true
   },
+
   rules: {
 
     // errors
