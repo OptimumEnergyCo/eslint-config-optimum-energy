@@ -24,3 +24,6 @@ your [ESLint configuration](http://eslint.org/docs/user-guide/configuring).
   }
 }
 ```
+
+Look at this repository's `circle.yml` for an example of how to configure ESLint to work with
+[CircleCI](https://circleci.com/).
