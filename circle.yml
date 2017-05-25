@@ -1,0 +1,6 @@
+dependencies:
+  override:
+    - yarn
+test:
+  post:
+    - node_modules/.bin/eslint -c index.js --max-warnings 0 .
