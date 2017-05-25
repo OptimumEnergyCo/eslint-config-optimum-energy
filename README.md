@@ -1,24 +1,26 @@
-# eslint-config-optimum
+# Optimum Energy ESLint Configuration
 
-> ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for the Optimum JavaScript style guide
-
-
-## Installation
-
-```
-$ npm install --save-dev eslint eslint-config-optimum
-```
+This is the [shared](http://eslint.org/docs/developer-guide/shareable-configs.html) team ESLint
+configuration for [Optimum Energy](http://optimumenergyco.com/).
 
 
 ## Usage
 
-Once the `eslint-config-optimum` package is installed, you can use it by specifying `optimum` in the [`extends`](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) section of your [ESLint configuration](http://eslint.org/docs/user-guide/configuring).
+First, install this package along with `eslint`.
 
-```js
+```
+$ yarn add eslint eslint-config-optimum-energy
+```
+
+Next, specify `optimum-energy` in the
+[`extends`](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) section of
+your [ESLint configuration](http://eslint.org/docs/user-guide/configuring).
+
+``` js
 {
-  "extends": "optimum",
+  "extends": "optimum-energy",
   "rules": {
-    // Additional, per-project rules...
+    // Additional per-project rules...
   }
 }
 ```
