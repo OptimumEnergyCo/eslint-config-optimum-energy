@@ -27,3 +27,16 @@ your [ESLint configuration](http://eslint.org/docs/user-guide/configuring).
 
 Look at this repository's `circle.yml` for an example of how to configure ESLint to work with
 [CircleCI](https://circleci.com/).
+
+## Deployment
+
+If you'd like to deploy an updated version of this package to NPM, run the following on the `master`
+branch.
+
+``` shell
+npm version <VERSION>
+git push origin master
+```
+
+This will update the package.json file and create a tagged commit. CircleCI will automatically pick
+up the tagged commit and publish the package.

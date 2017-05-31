@@ -1,6 +1,13 @@
 dependencies:
+  pre:
+    - echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
   override:
     - yarn
 test:
   post:
     - node_modules/.bin/eslint -c index.js --max-warnings 0 .
+deployment:
+  npm:
+    tag: /v[0-9]+(\.[0-9]+)*/
+    commands:
+      - npm publish
