@@ -35,7 +35,7 @@ branch.
 
 ``` shell
 npm version <VERSION>
-git push origin master
+git push --follow-tags origin master
 ```
 
 This will update the package.json file and create a tagged commit. CircleCI will automatically pick
