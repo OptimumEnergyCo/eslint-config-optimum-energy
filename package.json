@@ -3,7 +3,7 @@
   "version": "0.1.4",
   "description": "The shared team ESLint configuration for Optimum Energy",
   "license": "MIT",
-  "repository": "https://github.com/OptimumEnergyCo/eslint-config-optimum-energy",
+  "repository": "https://github.com/optimumenergyco/eslint-config-optimum-energy",
   "files": [
     "index.js"
   ],
