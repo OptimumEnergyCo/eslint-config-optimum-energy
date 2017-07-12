@@ -67,7 +67,6 @@ module.exports = {
     "no-unused-labels": "error",
     "no-useless-call": "error",
     "no-useless-concat": "warn",
-    "no-useless-escape": "error",
     "no-void": "error",
     "no-with": "error",
     "radix": "error",
