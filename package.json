@@ -8,6 +8,6 @@
     "index.js"
   ],
   "devDependencies": {
-    "eslint": "^3.8.1"
+    "eslint": "^4.0"
   }
 }
