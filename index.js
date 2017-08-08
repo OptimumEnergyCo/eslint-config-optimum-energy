@@ -83,7 +83,7 @@ module.exports = {
     "no-use-before-define": "warn",
 
     // stylistic
-    "array-bracket-spacing": ["warn", "never", { objectsInArrays: true, arraysInArrays: true } ],
+    "array-bracket-spacing": ["warn", "always"],
     "block-spacing": "warn",
     "camelcase": ["warn", { properties: "never" } ],
     "comma-spacing": "warn",
