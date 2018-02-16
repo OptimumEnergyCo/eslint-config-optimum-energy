@@ -117,7 +117,13 @@ module.exports = {
     "semi": "warn",
     "semi-spacing": "warn",
     "space-before-blocks": "warn",
-    "space-before-function-paren": [ "warn", "never" ],
+    "space-before-function-paren": [
+      "error", {
+        anonymous: "never",
+        named: "never",
+        asyncArrow: "always"
+      }
+    ],
     "space-in-parens": "warn",
     "space-infix-ops": "warn",
     "space-unary-ops": "warn",
