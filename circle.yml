@@ -5,7 +5,7 @@ dependencies:
     - yarn
 test:
   post:
-    - node_modules/.bin/eslint -c index.js --max-warnings 0 .
+    - npm run lint
 deployment:
   npm:
     tag: /v[0-9]+(\.[0-9]+)*/
