@@ -1,0 +1,3 @@
+eslint-config-optimum-energy:
+  build: .
+  cached: true
