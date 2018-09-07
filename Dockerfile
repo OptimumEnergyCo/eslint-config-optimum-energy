@@ -1,5 +1,4 @@
 FROM node:10
-MAINTAINER devops@optimumenergyco.com
 
 # Install the application's dependencies
 WORKDIR /app
