@@ -1,0 +1,4 @@
+-
+  name: run-lint
+  service: eslint-config-optimum-energy
+  command: yarn lint
