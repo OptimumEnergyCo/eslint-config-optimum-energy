@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-optimum-energy",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "The shared ESLint configuration for Optimum Energy",
   "license": "MIT",
   "repository": "https://github.com/optimumenergyco/eslint-config-optimum-energy",
@@ -8,8 +8,8 @@
     "index.js"
   ],
   "devDependencies": {
-    "eslint": "^5.5.0",
-    "babel-eslint": "^9.0.0"
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.5.0"
   },
   "scripts": {
     "lint": "eslint -c index.js --max-warnings 0 ."
