@@ -6,10 +6,10 @@ configuration for [Optimum Energy](http://optimumenergyco.com/).
 
 ## Usage
 
-First, install this package along with `eslint`.
+First, install the package.
 
 ```
-$ yarn add eslint eslint-config-optimum-energy
+$ yarn add -D eslint-config-optimum-energy
 ```
 
 Next, specify `optimum-energy` in the
@@ -25,19 +25,16 @@ your [ESLint configuration](http://eslint.org/docs/user-guide/configuring).
 }
 ```
 
-Look at this repository's `circle.yml` for an example of how to configure ESLint to work with
-[CircleCI](https://circleci.com/).
-
 ## Deployment
 
-If you'd like to deploy an updated version of this package to NPM, run the following on the `master`
+If you'd like to deploy an updated version of this package to NPM, run the following before deploying
 branch.
 
 ``` shell
-npm version <VERSION>
-git push origin master
-git push --tags origin master
+yarn version --new-version <VERSION>
+git push origin HEAD
+git push --tags origin HEAD
 ```
 
-This will update the package.json file and create a tagged commit. CircleCI will automatically pick
-up the tagged commit and publish the package.
+This will update the `package.json` file and create a tagged commit. Codeship will automatically
+pick up the tagged commit and publish the package.

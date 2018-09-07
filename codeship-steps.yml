@@ -1,0 +1,9 @@
+-
+  name: run-lint
+  service: eslint-config-optimum-energy
+  command: yarn lint
+-
+  name: deploy-to-npm
+  service: eslint-config-optimum-energy
+  command: scripts/publish.sh
+  tag: master
