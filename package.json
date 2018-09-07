@@ -1,14 +1,14 @@
 {
   "name": "eslint-config-optimum-energy",
   "version": "0.3.1",
-  "description": "The shared team ESLint configuration for Optimum Energy",
+  "description": "The shared ESLint configuration for Optimum Energy",
   "license": "MIT",
   "repository": "https://github.com/optimumenergyco/eslint-config-optimum-energy",
   "files": [
     "index.js"
   ],
   "devDependencies": {
-    "eslint": "^4.0"
+    "eslint": "^5.5.0"
   },
   "scripts": {
     "lint": "eslint -c index.js --max-warnings 0 ."
