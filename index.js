@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 module.exports = {
   parser: "babel-eslint",
@@ -106,6 +106,7 @@ module.exports = {
     "no-unneeded-ternary": "warn",
     "no-whitespace-before-property": "warn",
     "object-curly-spacing": [ "warn", "always" ],
+    "quotes": [ "warn", "double", { avoidEscape: true, allowTemplateLiterals: true } ],
     "semi": "warn",
     "semi-spacing": "warn",
     "space-before-blocks": "warn",
