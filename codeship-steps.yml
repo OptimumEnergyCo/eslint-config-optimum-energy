@@ -5,5 +5,5 @@
 -
   name: deploy-to-npm
   service: eslint-config-optimum-energy
-  command: scripts/publish.sh
+  command: yarn run publish
   tag: master

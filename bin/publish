@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+# Add the NPM token to the .npmrc file
+echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> "$HOME/.npmrc"
+
+# Publish the package, but only if the current published version is behind the latest version.
+PUBLISHED_VERSION=$(yarn info --json | jq -r '.data."dist-tags".latest')
+PACKAGE_VERSION=$(jq -r '.version' package.json)
+
+if [ "$PACKAGE_VERSION" != "$PUBLISHED_VERSION" ]; then
+  yarn publish || 0
+else
+  echo "The current version ($PACKAGE_VERSION) has not changed. If you would like to deploy a new" \
+    "version, follow the instructions in the readme."
+fi
