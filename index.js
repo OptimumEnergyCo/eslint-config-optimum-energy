@@ -82,6 +82,7 @@ module.exports = {
     "comma-style": "warn",
     "computed-property-spacing": "warn",
     "eol-last": "warn",
+    "function-paren-newline": [ "warn", "multiline" ],
     "indent": [ "warn", 2, { "SwitchCase": 1 } ],
     "key-spacing": "warn",
     "keyword-spacing": "warn",
