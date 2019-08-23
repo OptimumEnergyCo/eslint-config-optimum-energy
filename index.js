@@ -8,6 +8,10 @@ module.exports = {
     node: true
   },
 
+  "plugins": [
+    "no-only-tests"
+  ],
+
   rules: {
 
     // errors
@@ -48,6 +52,7 @@ module.exports = {
     "no-new-wrappers": "error",
     "no-octal": "error",
     "no-octal-escape": "error",
+    "no-only-tests/no-only-tests": "error",
     "no-proto": "error",
     "no-redeclare": "error",
     "no-script-url": "error",

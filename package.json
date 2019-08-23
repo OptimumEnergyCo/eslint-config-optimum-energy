@@ -9,7 +9,8 @@
   ],
   "devDependencies": {
     "babel-eslint": "^10.0.1",
-    "eslint": "^5.16.0"
+    "eslint": "^6.2.1",
+    "eslint-plugin-no-only-tests": "^2.3.1"
   },
   "scripts": {
     "lint": "eslint -c index.js --max-warnings 0 .",
