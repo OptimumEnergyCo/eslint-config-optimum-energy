@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-optimum-energy",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "The shared ESLint configuration for Optimum Energy",
   "license": "MIT",
   "repository": "https://github.com/optimumenergyco/eslint-config-optimum-energy",
