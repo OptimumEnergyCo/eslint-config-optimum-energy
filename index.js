@@ -18,8 +18,8 @@ module.exports = {
     "no-loss-of-precision": "warn",
     "no-promise-executor-return": "error",
     "no-unreachable-loop": "warn",
-    "no-useless-backreference": "warn",
-    "require-atomic-updates": "warn",
+    "no-useless-backreference": "error",
+    "require-atomic-updates": "error",
 
     // best practices
     "array-callback-return": "error",
@@ -29,7 +29,7 @@ module.exports = {
     "default-param-last": "warn",
     "dot-location": [ "warn", "property" ],
     "eqeqeq": "warn",
-    "grouped-accessor-pairs": "error",
+    "grouped-accessor-pairs": "warn",
     "no-alert": "error",
     "no-caller": "error",
     "no-case-declarations": "error",
@@ -55,7 +55,7 @@ module.exports = {
     "no-new-func": "error",
     "no-new-wrappers": "error",
     "no-octal-escape": "error",
-    "no-octal": "error",
+    "no-octal": "warn",
     "no-param-reassign": "error",
     "no-proto": "error",
     "no-redeclare": "error",
@@ -85,7 +85,6 @@ module.exports = {
     "no-use-before-define": "warn",
 
     // stylistic
-
     "array-bracket-spacing": [ "warn", "always" ],
     "block-spacing": "warn",
     "camelcase": [ "warn", { properties: "never" } ],
@@ -123,8 +122,8 @@ module.exports = {
     "object-curly-spacing": [ "warn", "always" ],
     "prefer-exponentiation-operator": [ "warn" ],
     "quotes": [ "warn", "double", { avoidEscape: true, allowTemplateLiterals: true } ],
-    "semi-spacing": "warn",
     "semi": "warn",
+    "semi-spacing": "warn",
     "space-before-blocks": "warn",
     "space-before-function-paren": [
       "error", {
