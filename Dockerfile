@@ -1,4 +1,4 @@
-FROM node:10-jessie
+FROM node:14
 
 # Install the application's dependencies
 RUN apt-get update && apt-get -y install jq
